@@ -1,0 +1,89 @@
+body{
+  font-family:sans-serif;
+}
+
+.keyVisual{
+  text-align: center;
+}
+
+.headerInner{
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerInner,.mainInner{
+  max-width: 650px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+h2{
+  background-image: url(niconico_bg_blue.png);
+  line-height: 50px;
+  padding: 0 15 px;
+  color: #fff;
+  text-align: center;
+}
+
+.priceWrapper table,
+.priceWrapper th,
+.priceWrapper td{
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.priceWrapper th,
+.priceWrapper td{
+  padding: 7px;
+}
+
+.priceWrapper table{
+  width: 100%;
+}
+
+.priceWrapper th{
+  width: 150px;
+  background: #eee;
+}
+
+footer{
+  background: #eeeeee
+}
+
+.footerInner{
+  text-align: center;
+  margin-top: 50px;
+  padding: 30px; 
+}
+
+/* 画像の回り込み */
+.aboutWrapper img{
+  float: left;
+}
+
+/* 回り込みすぎの解決策 */
+.clearfix:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.aboutWrapper img {
+  float: left;
+  margin-right: 10px;
+}
+
+/* お問い合わせボタンの装飾 */
+.contactButtom{
+  width: 150px;
+  height: 30px;
+  display: inline-block;
+  background: lightskyblue;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 30px;
+}
